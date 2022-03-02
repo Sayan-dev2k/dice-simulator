@@ -13,7 +13,7 @@ while(1):
     else:
         print("OOps!!\n Do you want to try again?")
         b=input()
-        if(b=='yes'):
+        if(b=='y'):
             continue
         else:
             break
