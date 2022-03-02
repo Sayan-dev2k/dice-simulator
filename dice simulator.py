@@ -11,6 +11,10 @@ while(1):
         print("You win")
         break
     else:
-        print("Try again")
-        time.sleep(1)
+        print("OOps!!\n Do you want to try again?")
+        b=input()
+        if(b=='yes'):
+            continue
+        else:
+            break
 
